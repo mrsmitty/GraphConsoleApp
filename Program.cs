@@ -26,7 +26,6 @@ namespace aad
         {
             Authenticate();
             GetRoleAssignments("me@client.com.au");
-            GetRoleAssignments("troy.sutherland@royhill.com.au");
         }
 
         private static void Authenticate()
